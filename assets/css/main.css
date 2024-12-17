@@ -61,3 +61,34 @@
     font-size: 0.875rem;
     color: #555;
 }
+.introduction__btn-wrapper {
+    margin-top: 20px; /* Space between h1 and button */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .introduction__btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(to right, #40E0D0, #5FEFB0); /* Modern gradient */
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px; /* Smooth rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease; /* Smooth transition */
+    z-index: 5;
+  }
+  
+  .introduction__btn:hover {
+    background: linear-gradient(to right, #32bcd1, #4ddb92); /* Slightly darker gradient on hover */
+    transform: translateY(-3px) scale(1.05); /* Subtle lift and scale */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Add a deeper shadow on hover */
+    color: #fff;
+  }
+  
+  .introduction{
+    display: flex;
+    flex-direction: column;
+  }
