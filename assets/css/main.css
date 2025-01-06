@@ -37,11 +37,12 @@
 }
 
 .skills__icon {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 15px;
+    font-size: 40px; /* Adjust icon size */
+    margin-bottom: 10px;
 }
-
+img.skills__icon {
+    width: 40px;
+}
 .skills__progress {
     width: 100%;
     background: #e9ecef;

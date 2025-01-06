@@ -9,6 +9,8 @@
   <meta name="keywords" content="free html template, portfolio, html5, sass, jquery">
   <meta name="author" content="Bucky Maler">
   <link rel="stylesheet" href="assets/css/main.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
   <style>
     .header {
       position: relative;
@@ -71,7 +73,7 @@
 		  </h1>
 		  <!-- Download CV Button -->
 		  <div class="introduction__btn-wrapper">
-			<a href="assets//File/resume.pdf" download="Jay_Decena_CV" class="introduction__btn">Download CV</a>
+			<a href="assets//File/resume.pdf" download="Jay_Decena_CV.pdf" class="introduction__btn">Download CV</a>
 		  </div>
 	  
 		  <svg
@@ -183,11 +185,7 @@
         <ul class="skills__list">
             <!-- Skill 1: Web Development -->
             <li class="skills__list-item">
-                <svg class="skills__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-                    <path fill="#E44D26" d="M2.36 0h59.28L55.93 57.37 31.93 64 8.06 57.35z"/>
-                    <path fill="#F16529" d="M32 58.66l20.62-5.73 4.8-53.93H32z"/>
-                    <path fill="#EBEBEB" d="M31.92 26.14h9.28l-.62 6.93h-8.66v5.71h9.18L39.78 49l-7.87 2.14h-.09l-7.79-2.14-.5-5.71h5.28l.27 3.21 2.79.75h.09l2.8-.74.38-3.91H22.09L21.28 32h12.65zm-.03-10.91h8.18l-.46 5.71h-7.72z"/>
-                </svg>
+                <i class="fab fa-html5 skills__icon" style="color: #E44D26;"></i>
                 <h3>Web Development</h3>
                 <p>Proficient in HTML, CSS, JavaScript, and frameworks like React.</p>
                 <div class="skills__progress">
@@ -195,37 +193,41 @@
                 </div>
                 <span class="skills__percentage">90%</span>
             </li>
-            <!-- Skill 2: Graphic Design -->
+            <!-- Skill 2: PHP Frameworks -->
             <li class="skills__list-item">
-                <svg class="skills__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-                    <path fill="#FFCC33" d="M32 0l32 22.94v18.12L32 64 0 41.06V22.94L32 0z"/>
-                    <path fill="#FFF" d="M24 27h5v5h-5zM35 27h5v5h-5zM24 36h16v5H24z"/>
-                </svg>
-                <h3>Graphic Design</h3>
-                <p>Expertise in Photoshop, Illustrator, and Figma for visual design.</p>
-                <div class="skills__progress">
-                    <div class="skills__progress-bar" data-progress="80"></div>
-                </div>
-                <span class="skills__percentage">80%</span>
-            </li>
-            <!-- Skill 3: UI/UX Design -->
-            <li class="skills__list-item">
-                <svg class="skills__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-                    <circle cx="32" cy="32" r="30" fill="#4CAF50"/>
-                    <path fill="#FFF" d="M42 20H22v24h20z"/>
-                    <circle cx="32" cy="32" r="6" fill="#4CAF50"/>
-                </svg>
-                <h3>UI/UX Design</h3>
-                <p>Crafting user-friendly and interactive interfaces.</p>
+                <i class="fab fa-php skills__icon" style="color: #4F5B93;"></i>
+                <h3>PHP Frameworks</h3>
+                <p>Skilled in PHP frameworks like Laravel, CodeIgniter, and Symfony for back-end development.</p>
                 <div class="skills__progress">
                     <div class="skills__progress-bar" data-progress="85"></div>
                 </div>
                 <span class="skills__percentage">85%</span>
             </li>
-          
+            <!-- Skill 3: UI/UX Design -->
+            <li class="skills__list-item">
+                <i class="fas fa-pencil-ruler skills__icon" style="color: #4CAF50;"></i>
+                <h3>UI/UX Design</h3>
+                <p>Crafting user-friendly interfaces with strong emphasis on design principles and interactivity.</p>
+                <div class="skills__progress">
+                    <div class="skills__progress-bar" data-progress="90"></div>
+                </div>
+                <span class="skills__percentage">90%</span>
+            </li>
+            <!-- Skill 4: Editing in Photoshop -->
+            <li class="skills__list-item">
+                <img src="assets/img/photoshop.svg" alt="Photoshop Icon" class="skills__icon" />
+                <h3>Photoshop</h3>
+                <p>Advanced photo editing, compositing, and creating visual designs in Photoshop.</p>
+                <div class="skills__progress">
+                    <div class="skills__progress-bar" data-progress="80"></div>
+                </div>
+                <span class="skills__percentage">80%</span>
+            </li>
         </ul>
     </div>
 </section>
+
+
 
 
 <!-- END SECTION: Skills -->
