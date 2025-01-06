@@ -1,0 +1,245 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "projects": "Projects"
+  },
+  "basics": {
+    "location": {
+      "address": "Zambales"
+    },
+    "name": "Jay Decena",
+    "email": "jaydecena0711@gmail.com",
+    "phone": "09458871863"
+  },
+  "education": [
+    {
+      "studyType": "BS",
+      "startDate": "July 2019",
+      "endDate": "July 2023",
+      "gpa": "1.62",
+      "institution": "Polytechnic College of Botolan",
+      "location": "Botolan, Zambales",
+      "area": "Information Technology"
+    }
+  ],
+  "work": [
+    {
+      "website": "",
+      "highlights": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "highlights": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "highlights": [
+        null,
+        null,
+        null,
+        null,
+        ""
+      ]
+    },
+    {
+      "highlights": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "highlights": [
+        "Developed and deployed automation solutions for web scraping, leveraging Python for optimal performance and reliability.",
+        "Implemented cronjobs to optimize content management processes, minimizing manual tasks and improving operational efficiency.",
+        "Utilized technologies like Guzzle, SQLite, and Symfony components to design scalable systems that improved overall performance and responsiveness."
+      ],
+      "company": "Digital Cart- FZCO",
+      "position": "Independent Contractor - Software Engineer ",
+      "location": "Remote - Dubai, UAE",
+      "startDate": "July 2024",
+      "endDate": "October 2024"
+    },
+    {
+      "highlights": [
+        "Managed website performance optimization, resulting in faster load times and increased user engagement.",
+        "Implemented WordPress themes and plugins, improving site functionality and user experience.",
+        "Built websites using builders to create responsive and visually appealing layouts"
+      ],
+      "company": "H  Grant Design",
+      "position": "Freelancer - Wordpress Developer",
+      "location": "Remote - New Jersey",
+      "startDate": "January 2024",
+      "endDate": "July 2024"
+    },
+    {
+      "highlights": [
+        "Work on end-to-end application development, integrating WordPress, React, Laravel, and Next.js.",
+        "Collaborate with cross-functional teams to understand project requirements and deliver comprehensive solutions",
+        "Designed and implemented RESTful APIs, facilitating efficient data exchange between front-end and back-end systems."
+      ],
+      "company": "IformatLogic",
+      "position": "Fulltime - Full Stack Developer",
+      "location": "Hybrid - Iba, Zambales",
+      "startDate": "Septermber 2023",
+      "endDate": "November 2024"
+    },
+    {
+      "highlights": [
+        "Develop and maintain responsive websites and web applications",
+        "Collaborate with team mebers to define, design, and website features.",
+        "Optimized web applications for speed and scalability, improving load times and reducing server response time by up to 20%."
+      ],
+      "company": "IformatLogic",
+      "position": "Intern - Web Developer ",
+      "location": "Hybrid - Iba, Zambales",
+      "startDate": "July 2022",
+      "endDate": " October 2022"
+    },
+    {
+      "highlights": [
+        "Utilized HTML5, CSS3, and JavaScript to create responsive and visually appealing user interfaces.",
+        "Applied server-side scripting with PHP to deliver dynamic and efficient web applications.",
+        "Identified and addressed technical challenges promptly, optimizing website performance and functionality"
+      ],
+      "company": "Software Developer",
+      "position": "Freelance - Developer",
+      "startDate": "June 2020",
+      "endDate": "July 2022",
+      "location": "Zambales"
+    },
+    {
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "Laravel",
+        "PHP",
+        "Javascript",
+        "Vue",
+        "React",
+        "CSS",
+        "Typescript",
+        "Wordpress",
+        "Java",
+        "Python",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "name": "Technologies"
+    },
+    {
+      "keywords": [
+        "NoSQL",
+        "SQL",
+        null,
+        null,
+        "Git",
+        "Rest API",
+        "Bootstrap",
+        "Tailwind",
+        null
+      ],
+      "name": "Others"
+    },
+    {
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        "ReactJS",
+        "NextJS",
+        "Prisma",
+        "MongoDB",
+        "TailwindCSS"
+      ],
+      "name": "Breeze",
+      "url": "https://thebrezee.vercel.app/",
+      "description": "Breeze is a sleek and straightforward blog post app developed with Next.js,React, Prisma, Tailwind, and MongoDB designed to streamline your blogging experience. Whether you're a casual writer or a content creator, Breeze offers a clean and intuitive platform for sharing your thoughts with the world."
+    },
+    {
+      "keywords": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "keywords": [
+        null,
+        null,
+        null,
+        null,
+        ""
+      ]
+    },
+    {
+      "keywords": [
+        null
+      ]
+    },
+    {
+      "keywords": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "keywords": [
+        "React",
+        "Tailwind",
+        "NodeJS",
+        "Supabase",
+        "Material UI"
+      ],
+      "name": "Pawthway",
+      "description": "Pawthway - A platform to help lost pets find their way back home. Post lost pets, found pets, and connect with other pet lovers.",
+      "url": "https://pawthway.vercel.app/"
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
